@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">My Portfolio</h1>
+    <p class="subtitle">Full Stack Developer | UI/UX Designer</p>
+   <div class="menu-toggle">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+  </header>
+
+  <nav class="sidebar" id="sidebar">
+    <a href="#about">
+      <i class="fas fa-user"></i> About Me
+    </a>
+    <a href="#projects">
+      <i class="fas fa-code"></i> Projects
+    </a>
+    <a href="#skills">
+      <i class="fas fa-cogs"></i> Skills
+    </a>
+    <a href="#contact">
+      <i class="fas fa-envelope"></i> Contact
+    </a>
+  <a href="page.html">
+    <i class="fas fa-book"></i> Page
+  </a>
+  </nav>
+  
+    <main class="main-content">
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>I am Gouri Sankar A, a dedicated Cyber Security Researcher, Bug Hunter, and Junior Software Developer based in Kottayam, Kerala. With a strong passion for cybersecurity, I have successfully identified and secured vulnerabilities on prominent platforms such as lsgkerala.gov, NIT Calicut, mahaconnect.in, gjust.ac.in, Victoria College, and several other government domains. My work in bug hunting has not only helped strengthen the security of these platforms but has also fueled my drive to contribute to a safer digital ecosystem.
+      </p>
+      <br>
+      <p>I completed my schooling at De Paul Public School, Nazarathuhill, Kuravilangad, and pursued my higher secondary education at Sree Krishna Vocational Higher Secondary School, Kurichitanam. Currently, I am focused on self-learning and research to enhance my skills in bug hunting and the automation of vulnerability scanners. As a junior software developer, I combine my programming expertise with cybersecurity knowledge to build secure and efficient solutions. My journey is driven by a relentless curiosity and a commitment to continuous growth in the ever-evolving field of cybersecurity.
+
+      </p>
+    </section>
+
+<section id="skills" class="section">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-container">
+
+    <div class="skill-card">
+      <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+      <h3>Front-End Development</h3>
+      <p>HTML, CSS, JavaScript</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon"><i class="fas fa-code"></i></div>
+      <h3>Junior Software Developer</h3>
+      <p>Python, MySQL</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-icon"><i class="fas fa-brain"></i></div>
+      <h3>AI Enthusiast</h3>
+      <p>Machine Learning, Deep Learning, NLP</p>
+    </div>
+
+  </div>
+</section>
+<section id="projects" class="section">
+  <h2 class="section-title">Featured Projects</h2>
+  <div class="projects-container">
+
+    <div class="project-card">
+      <div class="project-image" style="background-image: url('https://source.unsplash.com/random/800x600/?phone,security')"></div>
+      <div class="project-content">
+        <h3 class="project-title">DoxF</h3>
+        <p class="project-description">
+          Python-based CLI tool to validate phone numbers and retrieve metadata (country, carrier, line type).
+          Supports offline validation and real-time API lookups for security/research purposes.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">CLI Tool</span>
+          <span class="tech-tag">OSINT</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/g0w6y/DoxF" class="project-link" target="_blank">
+            <i class="fab fa-github"></i>
+            Source Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="project-card">
+      <div class="project-image" style="background-image: url('https://source.unsplash.com/random/800x600/?instagram,social')"></div>
+      <div class="project-content">
+        <h3 class="project-title">IGxRT</h3>
+        <p class="project-description">
+          CLI tool for downloading Instagram content (profile photos, posts, bios) with an interactive menu.
+          Simplifies content retrieval for analysis or archival purposes.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Web Scraping</span>
+          <span class="tech-tag">Automation</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/g0w6y/IGxRT" class="project-link" target="_blank">
+            <i class="fab fa-github"></i>
+            Source Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+<div class="project-card">
+  <div class="project-image" style="background-image: url('https://source.unsplash.com/random/800x600/?hacking,security')"></div>
+  <div class="project-content">
+    <h3 class="project-title">Vulnx</h3>
+    <p class="project-description">
+      Clickjacking vulnerability tester that checks website defenses against malicious iframe embedding.
+      Essential for identifying UI redress attack risks.
+    </p>
+    <div class="project-tech">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">Web Security</span>
+      <span class="tech-tag">Penetration Testing</span>
+    </div>
+    <div class="project-links">
+      <a href="YOUR_DEMO_URL_HERE" class="project-link" target="_blank">
+        <i class="fas fa-external-link-alt"></i>
+        Live Demo
+      </a>
+      <a href="https://github.com/g0w6y/vulnx" class="project-link" target="_blank">
+        <i class="fab fa-github"></i>
+        Source Code
+      </a>
+    </div>
+  </div>
+</div>
+
+    <div class="project-card">
+      <div class="project-image" style="background-image: url('https://source.unsplash.com/random/800x600/?youtube,video')"></div>
+      <div class="project-content">
+        <h3 class="project-title">Ytruder</h3>
+        <p class="project-description">
+          YouTube downloader supporting live streams, videos, shorts, and audio extraction.
+          Built with yt-dlp for high compatibility and performance.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">yt-dlp</span>
+          <span class="tech-tag">Media Tool</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/g0w6y/Ytruder" class="project-link" target="_blank">
+            <i class="fab fa-github"></i>
+            Source Code
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image" style="background-image: url('https://source.unsplash.com/random/800x600/?encryption,code')"></div>
+      <div class="project-content">
+        <h3 class="project-title">Obfuscator</h3>
+        <p class="project-description">
+          Advanced Python code obfuscator using Base64, XOR, ROT13, reverse code, and whitespace techniques.
+          Protects intellectual property against reverse engineering.
+        </p>
+        <div class="project-tech">
+          <span class="tech-tag">Python</span>
+          <span class="tech-tag">Code Security</span>
+          <span class="tech-tag">Encryption</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/g0w6y/obfuscator" class="project-link" target="_blank">
+            <i class="fab fa-github"></i>
+            Source Code
+          </a>
+        </div>
+      </div>
+    </div>
+    
+<div class="project-card">
+  <div class="project-image" style="background-image: url('https://source.unsplash.com/random/800x600/?cybersecurity,hacking,IoT')"></div>
+  <div class="project-content">
+    <h3 class="project-title">RIOT</h3>
+    <p class="project-description">
+      A next-generation IoT security framework designed to detect, analyze, and prevent cyber threats in real time.
+      Features AI-driven anomaly detection, attack simulations, and advanced threat intelligence.
+    </p>
+    <div class="project-tech">
+      <span class="tech-tag">Python</span>
+      <span class="tech-tag">Flask</span>
+      <span class="tech-tag">Machine Learning</span>
+      <span class="tech-tag">IoT Security</span>
+      <span class="tech-tag">Cyber Threat Intelligence</span>
+    </div>
+    <div class="project-links">
+      <span class="project-link coming-soon">
+        <i class="fas fa-hourglass-half"></i>
+        Coming Soon...
+      </span>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+    <section id="contact" class="section">
+      <h2>Get In Touch</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea rows="6" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+<div class="social-icons">
+  <a href="https://github.com/g0w6y" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
+  <a href="https://linkedin.com/in/g0w6y" target="_blank">
+    <i class="fab fa-linkedin"></i>
+  </a>
+  <a href="https://twitter.com/g0w6y" target="_blank">
+    <i class="fab fa-twitter"></i>
+  </a>
+  <a href="https://instagram.com/g0w6y" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://medium.com/@gourisankara357" target="_blank">
+    <i class="fab fa-medium"></i>
+  </a>
+</div>
+  </main>
+
+  <footer class="footer">
+    &copy; 2024 Portfolio | Designed by g0w6y
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
